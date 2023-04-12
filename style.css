@@ -2,3 +2,155 @@ html {
   height: 100%;
   width: 100%;
 }
+
+body {
+  margin-left: 160px;
+  margin-right: 160px;
+
+
+}
+
+#endereco,
+#Idade,
+#email,
+#telefone {
+  color: rgb(74, 74, 207);
+}
+
+header {
+  background-color: rgba(9, 6, 44, 0.925);
+  color: white;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#div1 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(234, 234, 241);
+}
+
+#imagemRosto {
+  margin: 4px;
+  height: 100px;
+  width: 100px;
+}
+
+#cabecalho {
+  display: flex;
+}
+
+#nome {
+  margin-left: 07px;
+  font-size: 20px;
+}
+
+#profissao {
+  margin-left: 07px;
+  font-size: 15px;
+}
+
+#titulo01,
+#titulo02,
+#titulo03 {
+  font-size: 20px;
+}
+
+#barra01 {
+  background-color: black;
+  display: flex;
+  border-radius: 07px;
+  width: 90%;
+}
+
+#webDesign {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: end;
+  width: 93%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+#printDesign {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: end;
+  width: 65%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+#logoDesign {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: end;
+  width: 80%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+#graphicDesign {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: end;
+  width: 93%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+#javaScript {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: end;
+  width: 93%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+#php {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: end;
+  width: 85%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+#htmlCss {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: end;
+  width: 97%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+#barras {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+
+#planos{
+  display: flex;
+  margin: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+#margemTag{
+margin-left: 10px;
+}
+
+#assinar{
+  
+}
